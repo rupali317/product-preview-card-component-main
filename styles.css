@@ -40,3 +40,33 @@
   --space-5: 2rem; /* 32px */
   --space-6: 2.5rem; /* 40px */
 }
+
+@font-face {
+}
+
+@font-face {
+}
+
+@font-face {
+}
+
+/*********************** CSS resets *********************************/
+
+/********************* Main stylings ********************************/
+body {
+}
+
+.text-preset-1 {
+}
+
+.text-preset-2 {
+}
+
+.text-preset-3 {
+}
+
+.text-preset-4 {
+}
+
+.text-preset-5 {
+}
