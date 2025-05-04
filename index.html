@@ -22,40 +22,49 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <h1 class="visually-hidden">List of perfumes</h1>
-    <article class="card">
-      <picture>
-        <source
-          srcset="./images/image-product-desktop.jpg"
-          media="(min-width: 48rem)"
-        />
-        <img
-          src="./images/image-product-mobile.jpg"
-          alt="A Gabrielle perfume bottle consisting of the yellow hued perfume. The perfume lies on a white background surrounding by some leaves"
-          width="350"
-          height="342"
-        />
-      </picture>
-      <section class="content">
-        <div class="ribbon-text">Perfume</div>
-        <h2>Gabrielle Essence Eau De Parfum</h2>
-        <p>
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
-        <em>$149.99</em>
-        <del>$169.99</del>
-        <button>
-          <img
-            src="./images/icon-cart.svg"
-            alt=""
-            role="presentation"
-            width="15"
-            height="16"
+    <main>
+      <h1 class="visually-hidden">List of perfumes</h1>
+      <article class="card">
+        <picture>
+          <source
+            srcset="./images/image-product-desktop.jpg"
+            media="(min-width: 48rem)"
           />
-          Add to Cart
-        </button>
-      </section>
-    </article>
+          <img
+            src="./images/image-product-mobile.jpg"
+            alt="A Gabrielle perfume bottle consisting of the yellow hued perfume. The perfume lies on a white background surrounding by some leaves"
+          />
+        </picture>
+        <section class="content">
+          <span class="ribbon-text" aria-label="Perfume category">Perfume</span>
+          <h2>Gabrielle Essence Eau De Parfum</h2>
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <p>
+            <span aria-label="Discounted price"
+              ><span lang="en-US">$</span>149.99</span
+            >
+            <!-- Test if the dollar sign is read properly by screen reader -->
+            <span aria-label="Original price"
+              ><span lang="en-US">$</span>169.99</span
+            >
+          </p>
+          <button
+            aria-label="Add Gabrielle Essence Eau De Parfum to cart of - 149.99 USD"
+          >
+            <img
+              src="./images/icon-cart.svg"
+              alt=""
+              role="presentation"
+              width="15"
+              height="16"
+            />
+            Add to Cart
+          </button>
+        </section>
+      </article>
+    </main>
   </body>
 </html>
