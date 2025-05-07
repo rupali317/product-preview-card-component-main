@@ -98,3 +98,27 @@ body {
   font-size: var(--font-size-2);
   line-height: var(--line-height-3);
 }
+
+.color-neutral-1 {
+  color: var(--color-neutral-1);
+}
+
+.color-neutral-2 {
+  color: var(--color-neutral-2);
+}
+
+.color-neutral-3 {
+  color: var(--color-neutral-3);
+}
+
+.color-primary-1 {
+  color: var(--color-primary-1);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-strike-through {
+  text-decoration: line-through;
+}
