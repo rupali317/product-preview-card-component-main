@@ -138,9 +138,16 @@ body {
   max-width: 21.875rem; /* 350px */
 }
 
-img {
+picture img {
   border-top-left-radius: var(--border-radius-1);
   border-top-right-radius: var(--border-radius-1);
+  width: 21.875rem; /* 350px */
+  height: 15.3125rem; /* 245px */
+}
+
+button img {
+  width: 0.9375rem; /* 15px */
+  height: 1rem; /* 16px */
 }
 
 .content {
@@ -238,7 +245,7 @@ button:focus-visible {
     max-width: 37.5rem; /* 600px */
   }
 
-  img {
+  picture img {
     border-top-right-radius: var(--border-radius-none);
     border-bottom-left-radius: var(--border-radius-1);
     max-width: 18.75rem; /* 300px */
