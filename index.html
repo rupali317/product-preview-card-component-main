@@ -24,7 +24,7 @@
   <body>
     <main>
       <h1 class="visually-hidden">List of perfumes</h1>
-      <article class="card">
+      <div class="card">
         <picture>
           <source
             srcset="./images/image-product-desktop.webp"
@@ -38,11 +38,13 @@
           />
         </picture>
         <section class="content">
-          <span
+          <p
             class="text-preset-4 color-neutral-2 text-uppercase"
             aria-label="Category: Perfume"
-            >Perfume</span
           >
+            <!-- Test if this is read properly by screen reader -->
+            Perfume
+          </p>
           <h2 class="text-preset-1 color-neutral-1">
             Gabrielle Essence Eau De Parfum
           </h2>
@@ -57,10 +59,10 @@
               ><span lang="en-US">$</span>149.99</span
             >
             <!-- Test if the dollar sign is read properly by screen reader -->
-            <span
+            <del
               aria-label="Original price"
-              class="text-preset-5 text-strike-through color-neutral-2"
-              ><span lang="en-US">$</span>169.99</span
+              class="text-preset-5 color-neutral-2"
+              ><span lang="en-US">$</span>169.99</del
             >
           </p>
           <button
@@ -77,7 +79,7 @@
             Add to Cart
           </button>
         </section>
-      </article>
+      </div>
     </main>
   </body>
 </html>

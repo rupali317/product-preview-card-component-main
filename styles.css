@@ -212,10 +212,6 @@ button img {
   text-transform: uppercase;
 }
 
-.text-strike-through {
-  text-decoration: line-through;
-}
-
 button {
   padding: var(--space-3);
   border-radius: var(--border-radius-1);
