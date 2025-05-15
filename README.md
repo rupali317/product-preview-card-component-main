@@ -29,26 +29,26 @@ Users should be able to:
 
 ### 1. Desktop version
 
-![]()
+![Product preview card component desktop version](./screenshots/desktop-product-preview-card-component.png)
 
 ### 2. Tablet version
 
-![]()
+![Product preview card component tablet version](./screenshots/tablet-product-preview-card-component.png)
 
 ### 3. Mobile version
 
-![]()
+![Product preview card component mobile version](./screenshots/mobile-product-preview-card-component.png)
 
 ## Page speed insights
 
-[]()
+[Mobile version](https://pagespeed.web.dev/analysis/https-rupali317-github-io-product-preview-card-component-main/cd0we8vs4r?form_factor=mobile)
 
-[]()
+[Desktop version](https://pagespeed.web.dev/analysis/https-rupali317-github-io-product-preview-card-component-main/cd0we8vs4r?form_factor=desktop)
 
 ## Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [Product preview card component solution](https://github.com/rupali317/product-preview-card-component-main)
+- Live Site URL: [Product preview card component live URL](https://rupali317.github.io/product-preview-card-component-main/)
 
 ## My process
 
@@ -64,7 +64,7 @@ Users should be able to:
 
 - Browsers used for testing: Google Chrome, Firefox, Safari, Brave, Microsoft Edge.
 - Devices:
-  - (Real) MacBook Pro (14-inch), Samsung Galaxy A33 5G, Samsung Galaxy S20+, iPad Air (13-inch), MacBook Pro (13-inch).
+  - (Real) MacBook Pro (14-inch), Samsung Galaxy A33 5G, Samsung Galaxy S20+.
   - (Virtual) The mobile and tablet devices mentioned under Chrome's dev console.
 - Screen reader: MacOS VoiceOver.
 
