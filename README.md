@@ -70,11 +70,7 @@ Users should be able to:
 
 ### What I learned
 
-TBD
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+If an HTML tag is not explicitly set as `position:relative`, it will be treated as positioned container for flex children when using `display:flex`
 
 ## Acknowledgement
 
