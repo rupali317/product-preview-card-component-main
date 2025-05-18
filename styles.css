@@ -141,8 +141,9 @@ body {
 picture img {
   border-top-left-radius: var(--border-radius-1);
   border-top-right-radius: var(--border-radius-1);
-  width: 21.875rem; /* 350px */
-  height: 15.3125rem; /* 245px */
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  object-fit: cover;
 }
 
 button img {
@@ -241,11 +242,17 @@ button:focus-visible {
     max-width: 37.5rem; /* 600px */
   }
 
+  picture,
+  .content {
+    flex: 1;
+  }
+
   picture img {
     border-top-right-radius: var(--border-radius-none);
     border-bottom-left-radius: var(--border-radius-1);
-    max-width: 18.75rem; /* 300px */
     height: 100%;
+    width: auto;
+    object-fit: cover;
   }
 
   button,
